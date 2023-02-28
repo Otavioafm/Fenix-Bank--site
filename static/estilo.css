@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+
+/*conteudo da aba inical (cabecalho)*/
+
+.head {
+  display:justify;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.logo{
+  width: 100px;
+  margin-right: 0px;
+}
+
+.banco-nome{
+  font-family: aldrich;
+  width: 200px;
+  padding: 4px;
+  color: rgb(255, 174, 0);
+  position: absolute;
+  left: 7.6%;
+}
+
+
+a{
+  color: rgb(245, 160, 24);
+}
+
+.quemSomos-btn{
+  font-family: coda;
+  font-size: 15px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: relative;
+  padding: 2px;
+  top: 0px;
+  left: 15%;  
+}
+
+.servicos-btn{
+  font-family: coda;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  position: relative;
+  padding: 2px;
+  top: 0px;
+  left: 17%;
+
+   
+
+}
+
+.contato-btn{
+  font-family: coda;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  position: relative;
+  padding: 2px;
+  top: 0px;
+  left: 19%;
+}
+
+.cadastro-btn{
+  font-family: coda;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  color: #221133;
+  background: none;
+  padding: 1.5px;
+  top: 0px;
+  left: 42%;
+
+}
+
+.cadastro-user{
+  color: #221133;
+}
+
+.login-btn{
+  font-family: coda;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  padding: 2px;
+  top: 0px;
+  left: 40%;
+}
+
+.divisor1{
+  width: 100%;
+  position: relative;
+  padding: 8px;
+  top: 1.9px;
+  background-color: #ffa200;
+  color: rgb(255, 162, 0);
+}
+
+/*conteudo da aba inical*/
+
+
+.conteudo-inicial{
+  width: 100%;
+  position:absolute;
+  top: 14.3%;
+}
+
+
+.men{
+  width: 600px;
+  position: absolute;
+  top: 10px;
+  left: 919px;
+}
+
+.texto-imagem1{
+  font-family:Alexandria;
+  color: #221133;
+  position: absolute;
+  font-size: 60px;
+  top: 50px;
+   left: 35px;
+
+}
+
+.texto-imagem2{
+  font-family:Alexandria;
+  color: #221133;
+  position: absolute;
+  font-size: 50px;
+  top: 220px;
+  left: 126px;
+
+}
+
+
+
+.divisor2{
+  width: 100%;
+  position: relative;
+  padding: 8px;
+  top: 357.8px;
+  background-color: rgb(255, 162, 0);
+  color: rgb(255, 162, 0);
+}
+
+/*conteudo da area dos servicos (fotos)*/
+.conteudo-servicos {
+  position: relative;
+  margin: 0 auto;
+  width: 900px;
+  height: 830px;
+  top: 350px;
+}
+  
+.titulo-servicos {
+  font-family: coda;
+  color: #221133;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  
+.confiabilidade {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 30px;
+  top: 165px;
+  left: 35%;
+  transform: translateX(-50%);
+  
+}
+  
+.confiabilidade-img {
+  width: 190px;
+  position: absolute;
+  top: 200px;
+  left: 35%;
+  transform: translateX(-50%);
+}
+  
+.confiabilidade-texto {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 20px;
+  top: 400px;
+  left: 35%;
+  transform: translateX(-50%);
+}
+  
+.rentabilidade {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 30px;
+  top: 165px;
+  left: 50.3%;
+  transform: translateX(50%);
+}
+  
+.rentabilidade-img {
+  width: 190px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(50%);
+}
+  
+.rentabilidade-texto {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 20px;
+  top: 400px;
+  left: 47.5%;
+  transform: translateX(50%);
+}
+  
+.atendimento {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 30px;
+  top: 540px;
+  left: 35%;
+  transform: translateX(-50%);
+}
+  
+.atendimento-img {
+  width: 190px;
+  position: absolute;
+  top: 575px;
+  left: 35%;
+  transform: translateX(-50%);
+}
+  
+.atendimento-texto {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 20px;
+  top: 770px;
+  left: 35.5%;
+  transform: translateX(-50%);
+}
+  
+.local {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 30px;
+  top: 535px;
+  left: 43%;
+  transform: translateX(50%);
+}
+  
+.local-img {
+  width: 190px;
+  position: absolute;
+  top: 575px;
+  left: 50%;
+  transform: translateX(50%);
+}
+  
+.local-texto {
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  position: absolute;
+  font-size: 20px;
+  top: 770px;
+  left: 47%;
+  transform: translateX(50%);
+}
+
+
+/*conteudo do texto da area sobre/quem somos*/
+.quemSomos{
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 370px;
+  top: 400px;
+  left: 0%;
+}
+
+.titulo-quemSomos{
+  font-family: Coda;
+  font-size: 37px;
+  color: #221133;
+  position: absolute;
+  left: 15px;
+
+}
+ 
+.img-quemSomos{
+  border-radius: 150px;
+  position: absolute;
+  width: 300px;
+  left: 0%;
+  top: 60px;
+
+}
+
+.texto-quemSomos{
+  position: absolute;
+  color: rgb(255, 183, 0);
+  font-family: electrolize;
+  font-size: 18px;
+  left: 330px;
+  top: 70px;
+}
+  
+
+/*aba serviços*/
+.texto-centralizado { font-size: 18px;
+  color: rgb(245, 181, 20);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1200px;
+}
+
+.texto-servicos-titulo{
+  position: absolute;
+  font-family: electrolize;
+  color: #221133; 
+  text-align: center; 
+  left: 29%;
+  top: 170%;
+}
+
+
+.texto-centralizado{
+  position: absolute;
+  font-family: electrolize;
+  top: 300px;
+  left: 10%;
+}
+
+.texto-centralizado1{
+  position: absolute;
+}
+  
+
+.texto-centralizado2{
+  position: absolute;
+  top: 100px;
+}
+  
+.texto-centralizado3{
+  position: absolute;
+  top: 170px;
+}
+
+
+
+/*aba contato*/
+.contato{
+  height: 220px;
+  font-family: Coda;
+  font-size: 23px;
+  color: #221133;
+  position: relative;
+  text-align: center;
+  top: 1000px;
+}
+
+.divisor3{
+  position: relative;
+  width: 100%;
+  background-color: #221133;
+  left: 1px;
+}
+
+.astronauta-wave{
+  position: absolute;
+  border-radius: 70px;
+  width: 140px;
+  left: 7px;
+  top: 65px;
+}
+
+.instagram-btn{
+  font-family: electrolize;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  top: 150px;
+  left: 520px;
+  transition: background-color 0.9s ease 0s;
+}
+.instagram-btn:hover{
+  background-color: rgb(92, 230, 104);
+}
+
+.facebook-btn{
+  font-family: electrolize;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  top: 150px;
+  left: 647px;
+  transition: background-color 0.9s ease 0s;
+}
+.facebook-btn:hover{
+  background-color: rgb(92, 230, 104);
+}
+
+.twiter-btn{
+  font-family: electrolize;
+  position: absolute;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 120px;
+  top: 150px;
+  left: 779px;
+  transition: background-color 0.9s ease 0s;
+}
+.twiter-btn:hover{
+  background-color: rgb(92, 230, 104);
+}
+
+.youtube-btn{
+  font-family: electrolize;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 10px;
+  width: 120px;
+  top: 150px;
+  left: 910px;
+  transition: background-color 0.9s ease 0s;
+}
+.youtube-btn:hover{
+  background-color: rgb(92, 230, 104);
+}
+
+
+
+
